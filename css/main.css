@@ -1,0 +1,153 @@
+/*HTML Selectors*/
+#wrap {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.mainNav{
+  height: auto;
+  width: 960px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+  display: center;
+  text-decoration: none;
+
+}
+
+.mainNav ul{
+  margin-top: -145px;
+  margin-bottom: 0px;
+  margin-left: -10px;
+  margin-right: 1px;
+  text-align: center;
+  display: center;
+  vertical-align: top;
+  background-color: #f2f6fb;
+  width: 960px;
+  height: 30px;
+  position: fixed;
+}
+
+.mainNav ul li{
+  font-size: 14px;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 6px;
+  margin-bottom: 5px;
+}
+
+.mainNav ul li a{
+  color: black;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.mainNav ul li a:hover{
+  background-color: #93b93b;
+  padding: 8px;
+}
+
+.donate_Today{
+  margin-top: 142px;
+  margin-bottom: 0px;
+  margin-left: 240px;
+  margin-right: 1px;
+  font-size: 24px;
+  font-family: Arial;
+  width: 300px;
+
+}
+
+.memberships{
+  margin-top: -50px;
+  margin-bottom: 1px;
+  margin-left: 670px;
+  margin-right: 1px;
+  font-size: 24px;
+  font-family: Arial;
+  width: 300px;
+}
+
+.background{
+  background-color: #f2eeeb;
+  height: 280px;
+}
+
+
+.membership_and_fundraising{
+  padding-top: 15px;
+  align-items: center;
+  text-align: center;
+
+}
+
+.renewal{
+  margin-left: 250px;
+  width: 420px;
+  height: 60px;
+  align-items: center;
+  text-align: center;
+  padding: 1px;
+  border-style:solid;
+  border-color:black;
+  background-color: #FFFFFF;
+}
+
+.traa_Projects{
+padding-bottom: 40px;
+
+}
+
+.trout_Hatchery{
+max-width: 220px;
+height: 380px;
+margin-top: 50px;
+margin-left: 90px;
+align-items: center;
+text-align: center;
+padding: 1px;
+background-color: #f2f6fb;
+font-size: 16px;
+font-family: Arial;
+}
+
+.salmonid_Monitoring_Program{
+max-width: 220px;
+height: 380px;
+margin-top: -380px;
+margin-left: 370px;
+align-items: center;
+text-align: center;
+padding: 1px;
+background-color: #f2f6fb;
+font-size: 16px;
+font-family: Arial;
+}
+
+.komoka_Creek_Hydrological_Study{
+max-width: 220px;
+height: 380px;
+margin-top: -380px;
+margin-left: 650px;
+align-items: center;
+text-align: center;
+padding: 1px;
+background-color: #f2f6fb;
+font-size: 16px;
+font-family: Arial;
+}
+
+.merchandise_Bar{
+  margin-top: 50px;
+  text-align: center;
+  align-items: center;
+  background-color: #f2eeeb;
+  background-size: 60px;
+  font-size: 30px;
+  font-family: arial;
+
+}
