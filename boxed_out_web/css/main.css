@@ -1,0 +1,251 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+
+
+/* ADDING SITE STYLES HERE -- THIS IS FOR THE HEADER */	
+
+.hidden {display: none;}
+
+
+main{
+	min-width: 960px;
+	margin: 0 auto;
+	/* border is temp, */
+	border: thin dashed #333;
+}
+
+
+nav {
+	height: 40px;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #93b93b;
+	background-color: #f2f6fb;
+}
+
+.mainNav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 900px;
+	height: 40px;
+	margin: auto;
+}
+
+.mainNav li {
+	height: 40px;
+	width: 150px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-bottom-width: 0;
+	border-top-width:  0;
+}
+
+.mainNav li:hover {
+	background-color: #93b93b;
+}
+
+header {
+	height: 200px;
+}
+
+.headerContent {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: auto;
+	width: 900px;
+}
+
+.logo {
+	margin: auto;
+	margin-top: 25px;
+	height: 150px;
+	width: 150px;
+	background-color: grey;
+}
+
+.donaship {
+	margin: auto;
+	width: 190px;
+	height: 30px;
+	background-color: darkgrey;
+}
+
+.hero-image {
+	height: 420px;
+	background-color: lightgrey;
+}
+
+.blueBan {
+	margin: auto;
+	height: 250px;
+	width: 900px;
+	background-color: #f2f6fb;
+}
+
+.QL {
+	display: flex;
+	margin: auto;
+	width: 900px;
+}
+
+.QL p {
+	margin-top: 20px;
+	height: 210px;
+	width: 230px;
+	background-color: lightgrey;
+}
+
+.ban {
+	height: 440px;
+	background-color: #ebebeb;
+}
+
+.showcase {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin: auto;
+	width: 900px;
+}
+
+.showcase p {
+	margin: auto;
+	margin-top: 20px;
+	width: 400px;
+	height: 400px;
+	background-color: lightblue;
+
+}
+
+.showcase img {
+	margin: auto;
+	margin-top: 20px;
+	width: 400px;
+	height: 400px;
+	background-color: grey;
+}
+
+.gall {
+	display: flex;
+	flex-flow: row wrap;
+	margin: auto;
+	padding: 10px 0 10px 0;
+	width: 900px;
+	background-color: #f2f6fb;
+}
+
+.gall img {
+	width: 30%;
+	height: 150px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: grey;
+}
+
+.newsletter {
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: 30px;
+	width: 650px;
+	background-color: lightgrey;
+}
+
+#main-footer {
+	height: 440px;
+	background-color: #f2f6fb;
+}
+
+.footer {
+	display: flex;
+	flex-flow: row;
+	margin: auto;
+	padding-top: 40px;
+	width: 900px;
+	height: 290px;
+	border: thin dashed #333;
+}
+
+.footer-logo {
+	width: 150px;
+	height: 150px;
+	background-color: lightgrey;
+}
+
+.footer-text {
+	width: 200px;
+	border: thin dotted red;
+}
+
+
+
+.thanks h1 {
+	margin: auto;
+	width: 900px;
+	padding: 10px;
+}
+
+
+.bottom-logos {
+	display: flex;
+	flex-flow: row;
+	margin: auto;
+	width: 900px;
+}
+
+.bottom-logos img {
+	margin: auto;
+	height: 52px;
+	width: 50px;
+	background-color: lightgrey;
+}
