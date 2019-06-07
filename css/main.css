@@ -7,13 +7,13 @@
 .mainNav{
   height: auto;
   width: 960px;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 200px;
+  margin-bottom: 1px;
   margin-left: 215px;
   margin-right: 0px;
   text-align: center;
   align-items: center;
-  display: center;
+  display: inline;
   text-decoration: none;
 }
 
@@ -22,15 +22,18 @@
 }
 
 .mainNav ul{
-  margin-top: -100px;
+  margin-top: -30px;
   margin-bottom: 1px;
+	margin-right: 1px;
+	margin-left: -500px;
   text-align: center;
-  display: center;
+  display: inline;
   vertical-align: top;
   background-color: #f2f6fb;
   width: 960px;
   height: 30px;
   position: fixed;
+
 }
 
 .mainNav ul li{
@@ -41,6 +44,7 @@
   margin-bottom: 10px;
 	padding-left: 1px;
 	padding-right: 1px;
+
 }
 
 .mainNav ul li a{
@@ -49,13 +53,17 @@
   text-decoration: none;
 	padding-top: 10px;
 	padding-bottom: 5px;
-	padding-left: 15px;
+	padding-left: 10px;
 	padding-right: 10px;
 
 }
 
 .mainNav ul li a:hover{
   background-color: #93b93b;
+}
+
+.logo_Content{
+	margin-top: -75px;
 }
 
 .logo{
@@ -72,30 +80,75 @@
   margin-bottom: 0px;
   margin-left: 240px;
   margin-right: 1px;
-  font-size: 24px;
-  font-family: Arial;
+  font-size: 20px;
+  font-family: Arial,sans-serif;
   width: 300px;
-
+	text-decoration: none;
+	color: #93b93b;
 }
 
 .memberships{
-  margin-top: -50px;
+  margin-top: -40px;
   margin-bottom: 1px;
-  margin-left: 620px;
+  margin-left: 650px;
   margin-right: 1px;
-  font-size: 24px;
-  font-family: Arial;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
   width: 300px;
+	text-decoration: none;
+	color: #93b93b;
 }
 
 .hook_Image{
 	margin-top: 100px;
 }
 
+.about_Hook_Image_Content{
+	margin-top: 100px;
+}
+
+.anglers_Association{
+	margin-left: 460px;
+	margin-top: -240px;
+}
+
 .background{
   background-color: #f2eeeb;
   height: 280px;
-	margin-top: 100px;
+	margin-top: 150px;
+}
+
+
+.about-About_Us{
+	margin-top: -20px;
+	max-width: 960px;
+	height: 750px;
+	background-color: #f2f6fb;
+}
+
+.about_Us{
+padding-top: 30px;
+padding-left: 3px;
+text-decoration: underline;
+text-decoration-color: #93b93b;
+font-size: 16pt;
+font-family: arial, sans-serif;
+}
+
+.about_Us_Description{
+	padding-left: 3px;
+	padding-right: 3px;
+	margin-top:-30px;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+}
+
+.more_TRAA{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 1px;
+	font-family: arial, sans-serif;
+	font-size: 14px;
 }
 
 
@@ -119,18 +172,21 @@
 }
 
 .traa_Projects{
-padding-bottom: 40px;
+	padding-top: 100px;
+padding-bottom: 0px;
+margin-top: -100px;
+
 
 }
 
 .trout_Hatchery{
 max-width: 220px;
-height: 380px;
-margin-top: 270px;
+height: 600px;
+margin-top: 80px;
 margin-left: 90px;
 align-items: center;
 text-align: center;
-padding: 1px;
+padding: 0px;
 background-color: #f2f6fb;
 font-size: 16px;
 font-family: Arial;
@@ -138,32 +194,37 @@ font-family: Arial;
 
 .salmonid_Monitoring_Program{
 max-width: 220px;
-height: 380px;
-margin-top: -380px;
+height: 600px;
+margin-top: -605px;
 margin-left: 370px;
 align-items: center;
 text-align: center;
-padding: 1px;
+padding: 0px;
 background-color: #f2f6fb;
 font-size: 16px;
 font-family: Arial;
 }
 
+.salmonid_Monitoring{
+	margin-top: -300px;
+}
+
+
 .komoka_Creek_Hydrological_Study{
 max-width: 220px;
-height: 380px;
-margin-top: -380px;
+height: 600px;
+margin-top: -600px;
 margin-left: 650px;
 align-items: center;
 text-align: center;
-padding: 1px;
+padding: 0px;
 background-color: #f2f6fb;
 font-size: 16px;
 font-family: Arial;
 }
 
 .merchandise_Bar{
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
   align-items: center;
   background-color: #f2eeeb;
@@ -172,8 +233,9 @@ font-family: Arial;
   font-family: arial;
 }
 
-.merchadise{
+.merchandise{
 	align-items: flex-start;
+	margin-top: -100px;
 }
 
 
@@ -244,19 +306,18 @@ color: black;
 	font-family: arial;
 	font-size: 14pt;
 	color: black;
-	padding: 0px;
+	padding:-top: 10px;
 	margin-left: 300px;
 }
 
+.who_we_are-title{
+	text-decoration: underline;
+	text-decoration-color: #93b93b;
+}
+
 .search-Box{
-	top: 355px;
-	left: 575px;
 	margin-left: 550px;
 	margin-top: -40px;
-	outline: none;
-	border: none;
-	outline: none;
-	box-shadow: none;
 	}
 
 	.search-Box:input{
@@ -265,13 +326,20 @@ color: black;
 	}
 
 .footer_Menu{
-	background-color: #f2f6fb ;
+	background-color: #f2f6fb;
 	max-width: 960px;
 	height: 500px;
-	margin-top: 40px;
+	margin-top: -310px;
+}
+
+.footer_Logo{
+	margin-top: 150px;
+	padding-bottom: 30px;
+ padding-left: 10px;
 }
 
 .more_Info{
+padding-left: 20px;
 padding-top: 40px;
 margin-left: 210px;
 }
@@ -307,6 +375,8 @@ text-decoration: none;
 }
 
 .sponsored{
-	margin-top: 150px;
-	margin-left: 40px;
+	margin-top: 140px;
+	margin-left: 30px;
+	padding: 0px;
+font-size: 20px;
 }
