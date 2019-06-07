@@ -33,6 +33,7 @@
   width: 960px;
   height: 30px;
   position: fixed;
+
 }
 
 .mainNav ul li{
@@ -43,6 +44,7 @@
   margin-bottom: 10px;
 	padding-left: 1px;
 	padding-right: 1px;
+
 }
 
 .mainNav ul li a{
@@ -101,6 +103,10 @@
 	margin-top: 100px;
 }
 
+.about_Hook_Image_Content{
+	margin-top: 100px;
+}
+
 .anglers_Association{
 	margin-left: 460px;
 	margin-top: -240px;
@@ -110,6 +116,39 @@
   background-color: #f2eeeb;
   height: 280px;
 	margin-top: 150px;
+}
+
+
+.about-About_Us{
+	margin-top: -20px;
+	max-width: 960px;
+	height: 750px;
+	background-color: #f2f6fb;
+}
+
+.about_Us{
+padding-top: 30px;
+padding-left: 3px;
+text-decoration: underline;
+text-decoration-color: #93b93b;
+font-size: 16pt;
+font-family: arial, sans-serif;
+}
+
+.about_Us_Description{
+	padding-left: 3px;
+	padding-right: 3px;
+	margin-top:-30px;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+}
+
+.more_TRAA{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 1px;
+	font-family: arial, sans-serif;
+	font-size: 14px;
 }
 
 
@@ -271,6 +310,11 @@ color: black;
 	margin-left: 300px;
 }
 
+.who_we_are-title{
+	text-decoration: underline;
+	text-decoration-color: #93b93b;
+}
+
 .search-Box{
 	margin-left: 550px;
 	margin-top: -40px;
@@ -331,6 +375,8 @@ text-decoration: none;
 }
 
 .sponsored{
-	margin-top: 150px;
-	margin-left: 40px;
+	margin-top: 140px;
+	margin-left: 30px;
+	padding: 0px;
+font-size: 20px;
 }
