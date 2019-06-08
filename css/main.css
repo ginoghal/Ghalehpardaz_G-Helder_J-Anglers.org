@@ -114,7 +114,7 @@
 
 .background{
   background-color: #f2eeeb;
-  height: 280px;
+  height: 350px;
 	margin-top: 150px;
 }
 
@@ -168,13 +168,14 @@ width: 50%;
 }
 
 .renewal{
-  margin-left: 250px;
+  margin-left: 280px;
   width: 420px;
   height: 60px;
-	margin-top: 20px;
+	margin-top: 5px;
   align-items: center;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 10px;
+	padding-bottom: 10px;
   border-style:solid;
   border-color:black;
 	border-width: 1px;
@@ -184,7 +185,7 @@ width: 50%;
 }
 
 .traa_Projects{
-	padding-top: 100px;
+	padding-top: 120px;
 padding-bottom: 0px;
 margin-top: -70px;
 font-family: arial, sans-serif;

@@ -8,6 +8,4 @@ June 7 - Added Reset.html and fixed the margins
 June 7 - About.html page completed.
 June 7 - Only 2 mock ups for t shirt and hat remaining.
 
-
-
-# Ghalehpardaz_G-Helder_J-Anglers.org
+June 8 - Completed both About and Index.html.
