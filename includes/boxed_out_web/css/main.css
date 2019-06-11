@@ -1,0 +1,437 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+
+
+/* ADDING SITE STYLES HERE */
+
+
+/*ALL PAGES (NAV-FOOTER-GENERAL)*/
+.hidden {display: none;}
+
+
+main{
+	min-width: 960px;
+	margin: 0 auto;
+	/* border is temp, */
+	border: thin dashed #333;
+	text-align: center;
+}
+
+nav {
+	height: 40px;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #93b93b;
+	background-color: #f2f6fb;
+}
+
+.mainNav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 900px;
+	height: 40px;
+	margin: auto;
+}
+
+.mainNav li {
+	height: 40px;
+	width: 150px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-bottom-width: 0;
+	border-top-width:  0;
+}
+
+.mainNav li:hover {
+	background-color: #93b93b;
+}
+
+header {
+	height: 200px;
+}
+
+.headerContent {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: auto;
+	width: 900px;
+}
+
+.logo {
+	margin: auto;
+	margin-top: 25px;
+	height: 150px;
+	width: 150px;
+	background-color: grey;
+}
+
+.donaship {
+	margin: auto;
+	width: 190px;
+	height: 30px;
+	background-color: darkgrey;
+}
+
+.newsletter {
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: 30px;
+	width: 650px;
+	background-color: lightgrey;
+}
+
+#main-footer {
+	height: 440px;
+	background-color: #f2f6fb;
+}
+
+.footer {
+	display: flex;
+	flex-flow: row;
+	margin: auto;
+	padding-top: 40px;
+	width: 900px;
+	height: 290px;
+	border: thin dashed #333;
+}
+
+.footer-logo {
+	width: 150px;
+	height: 150px;
+	background-color: lightgrey;
+}
+
+.footer-text {
+	text-align: left;
+	width: 200px;
+	border: thin dotted red;
+}
+
+.thanks h1 {
+	margin: auto;
+	text-align: left;
+	width: 900px;
+	padding: 10px;
+}
+
+
+.bottom-logos {
+	display: flex;
+	flex-flow: row;
+	margin: auto;
+	width: 900px;
+}
+
+.bottom-logos img {
+	margin: auto;
+	height: 52px;
+	width: 50px;
+	background-color: lightgrey;
+}
+
+
+
+/*HOME PAGE*/
+
+.hero-home {
+	margin: auto
+	height: 420px;
+	background-color: lightgrey;
+}
+
+.tag {
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	width: 900px;
+	height: 420px;
+	border: thin dotted blue;
+}
+
+.tag p {											/*layover message on hero image*/
+	margin-top: 120px;
+	width: 420px;
+	height: 180px;
+	border: solid 3px black;
+}
+
+.messageBanner {
+	display: flex;
+	flex-direction: column;
+	height: 280px;
+	background-color: #ebebeb;
+}
+
+.messageBoard {
+	margin: auto;
+	width: 380px;
+	border: thin dashed green;
+}
+
+.messageBoard p {
+	margin: auto;
+	height: 150px;
+	width: 350px;
+	border: thin dotted red;
+}
+
+.membershipAd {
+	margin: auto;
+	width: 380px;
+	height: 60px;
+	border: solid 4px black;
+	background-color: #f2f6fb;
+}
+
+.sectionTitle {
+	margin: auto;
+	display: flex;
+	width: 900px;
+	height: 100px;
+}
+
+.sectionTitle p {
+	margin: 30px 0 40px 0;
+	display: flex;
+	flex-flow: column;
+	height: 27px;
+	border-bottom: solid 3px #93b93b;
+}
+
+.projectContainer {
+	margin: auto;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	width: 780px;
+	border: thin dashed black;
+}
+
+.project {
+	width: 220px;
+	display: flex;
+	flex-flow: column;
+	background-color: #f2f6fe;
+}
+
+.project img {
+	margin: auto;
+	width: 220px;
+	height: 190px;
+	background-color: lightgrey;
+}
+
+.project h1 {
+	text-align: left;
+	height: 60px;
+	border-bottom: solid 3px #93b93b;
+}
+
+.project p {
+	height: 240px;
+}
+
+.project button {
+	margin: auto;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	width: 100px;
+}
+
+.merchBanner {
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	height: 60px;
+	background-color: #ebebeb;
+}
+
+.supportText {
+	display: flex;
+	align-content: center;
+	margin: auto;
+	height: 40px;
+	align-items: center;
+	border: thin dashed green;
+}
+
+.merchContainer {
+	margin: auto;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	width: 780px;
+	border: thin dashed black;
+}
+
+.merch {
+	width: 240px;
+	height: 360px;
+	display: flex;
+	flex-flow: column;
+	background-color: #f2f6fe;
+}
+
+.merch img {
+	margin: auto;
+	margin-top: 40px;
+	width: 200px;
+	height: 180px;
+	background-color: lightgrey;
+}
+
+.merchCost{
+	margin: auto;
+	height: 35px;
+	width: 220px;
+	display: flex;
+	align-items: center;
+	border: thin dotted black;
+}
+
+.merch h1 {
+	width: 110px;
+	text-align: right;
+}
+
+.merch p {
+	width: 110px;
+	text-align: left;
+}
+
+.merch button {
+	margin: auto;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	width: 100px;
+}
+
+
+/*GALLERY PAGE*/
+
+.heroGallery {
+	margin: auto;
+	height: 420px;
+	background-color: lightgrey;
+}
+
+.blueBan {
+	margin: auto;
+	height: 250px;
+	width: 900px;
+	background-color: #f2f6fb;
+}
+
+.QL {
+	display: flex;
+	margin: auto;
+	width: 900px;
+}
+
+.QL p {
+	margin-top: 20px;
+	height: 210px;
+	width: 230px;
+	background-color: lightgrey;
+}
+
+.ban {
+	height: 440px;
+	background-color: #ebebeb;
+}
+
+.showcase {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin: auto;
+	width: 900px;
+}
+
+.showcase p {
+	margin: auto;
+	margin-top: 20px;
+	width: 400px;
+	height: 400px;
+	background-color: lightblue;
+
+}
+
+.showcase img {
+	margin: auto;
+	margin-top: 20px;
+	width: 400px;
+	height: 400px;
+	background-color: grey;
+}
+
+.gall {
+	display: flex;
+	flex-flow: row wrap;
+	margin: auto;
+	padding: 10px 0 10px 0;
+	width: 900px;
+	background-color: #f2f6fb;
+}
+
+.gall img {
+	width: 30%;
+	height: 150px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: grey;
+}
