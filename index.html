@@ -1,242 +1,202 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-<header>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/main.css">
-  <head>
-    <meta charset="utf-8">
-    <title>TRAA</title>
-  </head>
-    <nav class="mainNav"> <nav id="mainNav">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Events</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Gallery</a></li>
-      <li><a href="#">Contact/Links</a></li>
-    </ul>
-    </nav>
+<html lang="en"> 
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/main.css">
 
-      </header>
-<body>
-  <div id="wrap">
+		<title>CSS and HTML Box-out</title>
+		
+	</head>
+	<body>
 
-    <div class="logo_Content"><div id="logo_Content">
+		<h1 class="hidden">BOXED OUT GALLERY PAGE</h1>
 
-    <div class="logo"><div id="logo">
-<img src="images/traa_logo-MASTER.png"> <alt="logo" height="175px" width="200px"></img>
-</div></div>
+		<main>
 
-<div class="donate_Today"><div id="donate_Today">
-      <p><a href="#" style="text-decoration:none">Donate Today</a></p>
-    </div></div>
+			<h1 class="hidden">MAIN NAVIGATION</h1>
 
-    <div class="memberships"><div id="memberships">
-      <p><a href="#" style="text-decoration:none">Memberships</a></p>
-    </div></div>
+			<nav> 
+				<ul class="mainNav">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="#">EVENTS</a></li>
+					<li><a href="#">PROJECTS</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li><a href="#">CONTACT/LINKS</a></li>
+				</ul>
+			</nav>
 
-  </div></div>
+			<h1 class="hidden">HEADER</h1>
 
-<div class="hook_Image"> <div id="hook_Image">
-        <img src="images/traa_hook_image.jpg"> <alt="hook_image" height="420px" width="960px"></img>
-      </div></div>
+			<header>
+				<container class="headerContent">
+					<a class="donaship" href="#">DONATE TODAY</a>
+					<a href="index.html"><img class="logo" src="images/logos/traa_logo_TRANS.svg" alt="logo"></a>
+					<a class="donaship" href="#">MEMBERSHIPS</a>
+				</container>
+			</header>
 
-<div class="anglers_Association"><div id="anglers_Association">
-  <img src="images/anglers_association.png" alt="anglers_Association" height="187px" width="420px"></img>
-</div></div>
+			
+			<div class="hero-home">
+				<container class="tag"><h1 class="hidden">HERO IMAGE</h1>
+					<img src="images/hero/Anglers_Hero_tag.png" alt="">
+				</container>
+			</div>
 
+			<div class="messageBanner">
+				<container class="messageBoard">
+					<h2>Message Board</h2>
 
+					<!-- 	ENTER MESSAGE TITLE IN "<H3>" AND BODY TEXT IN "<p>" -->
+					<h3>Memberships And Fundraising</h3>
 
-<div class="background"><div id="background">
-    <div class="membership_and_fundraising"><div id="membership_and_fundraising">
-    <p> <font size="+2">Membership and Fundraising</font></p> <br>
-
-      <p>Be apart of the Thames River Anglers<br>
-         Association community by signing up for a <br>
-        membership! Procceds go towards the TRAA’s <br>
-        projects and Events.<br> If you’re already a Member,<br>
-        please remember to renew your membership.</p>
-      </div></div>
-
-      <div class="renewal"><div id="renewal">
-        <p><b>Become a member or re-new your<br>
-           membership for just 25$ a year! </b></p>
-         </div></div>
+					<p>Be apart of theThames River Anglers Association community by signing up for a membership! Procceds go towards the TRAA’s projects and Events.<br>If you’re already a Member, please remember to renew your membership.</p>
 
 
+				</container>
 
-       <div class="traa_Projects"><div id="traa_Projects">
+				
+				<container class="membershipAd">
+					<a class="memLink" href="#">
+						<p>Become a member or re-new your<br>membership for just 25$ a year!</p>
+					</a>
+			</container>
 
-        <!--div class traa_Projects is a div for the section -->
+			</div>
 
-        <p>TRAA PROJECTS</p>
-      </div></div>
+			<container class="sectionTitle">
+				<h1>TRAA Projects</h1>
+			</container>
 
-        <div class="trout_Hatchery"><div id="trout_Hatchery">
-          <img src="images/trout_release.jpg"><alt="trout_release" height="180px" width="220px"></img>
-
-        <h3 align="left">Trout Hatchery</h3>
-        <br>
-        <br>
-        <br>
-        <p>Lorem ipsum dolor sit amet.<br>
-          consectetur adipiscing elit.<br>
-          sed do eiusmod tempor<br>
-          incididunt <br>
-          ut labore et dolore magna<br>
-          Quis ipsum suspendisse<br>
-          ultrices gravida Risus<br>
-          commodo viverra<br>
-          maecenas accumsan lacus<br>
-          vel facilisis.</p>
-          <br>
-          <br>
-          <p align="center"><font size="+1">Learn More</font></p>
-
-        </div></div>
-
-        <div class="salmonid_Monitoring_Program"><div id="salmonid_Monitoring_Program">
-        <img src="images/Salmonid_Monitoring.jpg"><alt="salmonid_Monitoring" height="180px" width="220px"></img>
-        <h3 align="left">Salmonid Monitoring<br> Program</h3>
-        <br>
-        <br>
-        <p>Lorem ipsum dolor sit amet.<br>
-          consectetur adipiscing elit.<br>
-          sed do eiusmod tempor<br>
-          incididunt <br>
-          ut labore et dolore magna<br>
-          Quis ipsum suspendisse<br>
-          ultrices gravida Risus<br>
-          commodo viverra<br>
-          maecenas accumsan lacus<br>
-          vel facilisis.</p>
-          <br>
-          <br>
-          <p align="center"><font size="+1">Learn More</font></p>
-
-        </div></div>
+			<container class="projectContainer">
 
 
-        <div class="komoka_Creek_Hydrological_Study"><div id="komoka_Creek_Hydrological_Study">
-        <img src="images/komoka.jpg"><alt="komoka" height="180px" width="220px"></img>
-        <h3 align="left">Komoka Creek<br> Hydrological Study</h3>
-        <br>
-        <br>
-        <p>Lorem ipsum dolor sit amet.<br>
-          consectetur adipiscing elit.<br>
-          sed do eiusmod tempor<br>
-          incididunt <br>
-          ut labore et dolore magna<br>
-          Quis ipsum suspendisse<br>
-          ultrices gravida Risus<br>
-          commodo viverra<br>
-          maecenas accumsan lacus<br>
-          vel facilisis.</p>
-          <br>
-          <br>
-          <p align="center"><font size="+1">Learn More</font></p>
-        </div></div>
+				<div class="project">
+					<img src="images/release/release_thumb.jpg" alt="Trout release">
+					<h1>Trout Hatchery</h1>
+					<p>The TRAA first began rearing rainbow trout in an outdoor upwelling incubation box back in 1986. Since then we've grown our facilirtys and successfully taken on both brown trout and brook trout eggs.</p>
+					<button>Learn More</button>
+				</div>
 
-          <div class="merchandise_Bar"><div id="merchandise_Bar">
-            <p><b>Support the TRAA with Merchandise</b></p>
+				<div class="project">
+					<img src="images/monitoring/monitoring_thumb.jpg" alt="Salmonid">
+					<h1>Salmonid Monitoring Program</h1>
+					<p>In the Spring of 2012 when TRAA members and personnel from the Upper Thames River Conservation Authority (UTRCA) waded in for Year 3 of our 5-year Salmonid Tagging and Monitoring Program.</p>
+					<button>Learn More</button>
+				</div>
 
-          </div></div>
+				<div class="project">
+					<img src="images/rehab/rehab_thumb.jpg" alt="">
+					<h1>Stream Rehabilitation</h1>
+					<p>Cleaning streams cause thats what we doo boi</p>
+					<button>Learn More</button>
+				</div>
 
+			</container>
 
-<content class="merchandise"><content id="merchandise">
+			<div class="merchBanner">
+				<container class="supportText">
+					<p>Support The TRAA With Merchandise</p>
+				</container>
+			</div>
 
-<div class="merchandise_Shirt"><div id="merchandise_Shirt">
-<img src="images/tshirt_TRAA.jpg"><alt="tshirt" height="180px" width="240px"></img>
-  <p>TRAA Shirts</p><br>
-  <p><font size="+2">$15</font></p>
-    <button class="button">Buy Now</button>
-  </div></div>
-
-  <div class="traa_Hats"><div id="traa_Hats">
-  <img src="images/hat_TRAA.jpg"><alt="hat" height="180px" width="240px"></img>
-    <p>TRAA Hats</p><br>
-    <p><font size="+2">$15</font></p>
-      <button class="button">Buy Now</button>
-    </div></div>
-
-    <div class="traa_Stickers"><div id="traa_Stickers">
-      <img src="images/TRAA_Stickers.jpg"><alt="sticker" height="180px" width="240px"></img>
-      <p>TRAA Stickers</p><br>
-      <p><font size="+2">$15</font></p>
-        <button class="button">Buy Now</button>
-      </div></div>
-
-</content></content>
-
-<div class="newsletter"><div id="newsletter">
-  <p>Sign-Up For the Newsletter</p>
-</div></div>
-
-  <div class="search-Box">
-    <input class="search" type="text" placeholder="Your Email Address" size="40px">
-  </div>
-
-  <div class="footer_Logo"><div id="footer_Logo">
-    <img src="images/traa_logo-MASTER.png"> <alt="logo" height="175px" width="200px"></img>
-  </div></div>
-
-<footer class="footer_Menu"><footer id="footer_Menu">
+			<container class="merchContainer">
 
 
-<div class="more_Info"><div id="more_Info">
-  <p>Thames<br> River<br> Angler<br> Assiciation</p><br>
-  <p>Pay Membership Fee:<br>
-  <a href="#">Click for more info</a></p><br>
-  <p>Checkout Addition<br>
-     information and Photos<br>
-     on our Facebook Page:<br>
-     <a href="#">TRAA-Facebook-Page</a><br>
- </div></div>
+				<div class="merch" id="Shirt">
+					<img src="images/merch/shirt_mock.jpg" alt="TRAA custom shirt">
+					<div class="merchCost">
+						<p>TRAA Shirts</p>
+						<h1>$15</h1>
+					</div>
+					<button>Buy Now</button>
+				</div>
 
-<div class="contact_Info"><div id="contact_Info">
-  <p>Email:<br>
-<a href="#">traa@anglers.org</a></p><br>
-<p>Shipping Adress:<br>
-Thames River Anglers<br>
-Association<br>
-2202 Coronation Drive<br>
-London, Ontario<br>
-N6G 0B9</p><br>
-<p>Meet location:<br>
-790 Southdale Road East<br>
-London, Ontario.</p>
- </div></div>
+				<div class="merch" id="Hat">
+					<img src="images/merch/hat_mock.jpg" alt="TRAA custom hat">
+					<div class="merchCost">
+						<p>TRAA Hats</p>
+						<h1>$15</h1>
+					</div>
+					<button>Buy Now</button>
+				</div>
 
-  <div class="navigation_Title"><div id="navigation_Title">
-    <p><b>Navigation</b></p></div></div>
+				<div class="merch" id="Sticker">
+					<img src="images/merch/sticker_mock.jpg" alt="">
+					<div class="merchCost">
+						<p>TRAA Stickers</p>
+						<h1>$15</h1>
+					</div>
+					<button>Buy Now</button>
+				</div>
 
-    <div class="footer_Nav"><div id="footer_Nav">
-  <ul>
-    <li><a href="#">Home</a></li><br>
-    <li><a href="#">About</a></li><br>
-    <li><a href="#">Events</a></li><br>
-    <li><a href="#">Projects</a></li><br>
-    <li><a href="#">Gallery</a></li><br>
-    <li><a href="#">Contact/Links</a></li><br>
-  </ul>
- </div></div>
-
- <div class="sponsored"><div id="sponsored">
-   <p><b>Supporting Local Companies</b></p>
-   <img src="images/guillevin_logo.png"> <alt="guillevin_logo" height="55px" width="225px"></img>
-   <img src="images/Try_Recycling_logo.png"> <alt="try_recycling_pro" height="81px" width="200px"></img>
-   <img src="images/Melchers_logo.png"> <alt="melchers_logo" height="71px" width="200px"></img>
-   <img src="images/Angling_logo.png"> <alt="angling_logo" height="91px" width="80px"></img>
-   <img src="images/muma_logo.png"> <alt="muma_logo" height="41px" width="180px"></img>
+			</container>
 
 
- </div></div>
+			<div class="newsletter">
 
-</footer></footer>
+				<h2>Sign Up For Our Newsletter</h2>
+				
+				<div class="search-box">
+					<input class="search" type="text" placeholder="Your Email Address..">
+				</div>
+
+			</div>
 
 
-</div>
+			<footer id="main-footer">
 
-  </body>
+				<div class="footer"> 
+
+					<a href="index.html"><img class="footer-logo" src="images/logos/traa_logo_greyscale.png" alt="logo"></a>
+
+					<div class="footer-text" id="Info">
+						<h2>Thames<br>River<br>Anglers<br>Association</h2>
+						<h3>Pay Membership Fee:<h3>
+						<p><a href="#">Membership Information</a></p>
+						<p>Checkout Additional<br>information and photos<br>on our Facebook Page:<br><a href="https://www.facebook.com/groups/4TRAA/">TRAA-Facebook</a></p>
+					</div>
+
+					<div class="footer-text" id="Contact">
+						<h3>Email:</h3>
+						<p>traa@anglers.org</p>
+						<h3>Shipping Address:</h3>
+						<p>Thames River Anglers<br>Association<br>2202 Coronation Drive<br>Londont, Ontario<br>N6G 0B9</p>
+						<h3>Meet Location</h3>
+						<p>790 Southdale Road East<br>London, Ontario.</p>
+					</div>
+
+					<div class="footer-text" id="Navigation">
+						<h2>NAVIGATION</h2>
+						<ul class="footnav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="#">Events</a></li>
+							<li><a href="#">Projects</a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+							<li><a href="#">Contact/Links</a></li>
+						</ul>
+					</div>
+
+				</div>
+
+				<div class="thanks">
+
+					<h1>Supporting Local Companies</h1>
+					
+					<container class="bottom-logos">
+						<a href="https://anglingsports.ca/"><img src="images\logos\angling_sports_logo.png" alt="Angling Sports Logo"></a>
+						<a href="https://www.guillevin.com/default/"><img src="images\logos\Guillevin.png" alt="Guillevin International co Logo"></a>
+						<a href="https://www.melchersconstruction.com/"><img src="images\logos\melchers_logo.png" alt="Melchers Construction Limited Logo"></a>
+						<a href="http://www.mumamanufacturing.com/"><img src="images\logos\muma_logo.png" alt="Muma Manufacturing Logo"></a>
+						<a href="http://tryrecycling.com/"><img src="images\logos\Final-Try-Logo.jpg" alt="Try Recycling Logo"></a>
+					</container>
+				</div>
+
+			</footer>
+
+		</main>
+		<script src="js/main.js"></script>
+	</body>
 </html>

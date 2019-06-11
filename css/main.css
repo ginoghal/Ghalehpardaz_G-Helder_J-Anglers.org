@@ -1,423 +1,691 @@
-/*HTML Selectors*/
-#wrap {
-	max-width: 960px;
-	margin: 0 auto;
+/*ALL PAGES (NAV-FOOTER-GENERAL)*/
+.hidden {display: none;}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: black;
 }
 
-.mainNav{
-  height: auto;
-  width: 960px;
-  margin-top: 200px;
-  margin-bottom: 1px;
-  margin-left: 1px;
-  margin-right: 0px;
-  text-align: center;
-  align-items: center;
-  display: inline;
-  text-decoration: none;
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+	display: inline-block;
+	border-bottom: solid 3px #93b93b;
 }
 
-.mainNav a{
-	overflow: hidden;
+h2 {
+	font-size: 24px;
+	font-style: italic;
+	padding: 20px 0 20px 10px;
 }
 
-.mainNav ul{
-  margin-top: -30px;
-  margin-bottom: 1px;
-	margin-right: 1px;
-	margin-left: -500px;
-  text-align: center;
-  display: inline;
-  vertical-align: top;
-  background-color: #f2f6fb;
-  width: 960px;
-  height: 30px;
-  position: fixed;
-
+p {
+	padding: 0 10px 0 10px;
 }
 
-.mainNav ul li{
-  font-size: 16px;
-  display:inline-block;
-  cursor: pointer;
-  margin-top: 8px;
-  margin-bottom: 10px;
-	padding-left: 1px;
-	padding-right: 1px;
-
-}
-
-.mainNav ul li a{
-  color: black;
-  border-radius: 5px;
-  text-decoration: none;
-	padding-top: 10px;
-	padding-bottom: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-
-}
-
-.mainNav ul li a:hover{
-  background-color: #93b93b;
-}
-
-.logo_Content{
-	margin-top: -75px;
-}
-
-.logo{
-	margin-top: 100px;
-  margin-bottom: -250px;
-  margin-left: 400px;
-  margin-right: 1px;
-	padding: 0px;
-}
-
-
-.donate_Today{
-  margin-top: 142px;
-  margin-bottom: 0px;
-  margin-left: 240px;
-  margin-right: 1px;
-  font-size: 20px;
-  font-family: Arial,sans-serif;
-  width: 300px;
-	text-decoration: none;
-	color: #93b93b;
-}
-
-.memberships{
-  margin-top: -40px;
-  margin-bottom: 1px;
-  margin-left: 650px;
-  margin-right: 1px;
-  font-size: 20px;
-  font-family: Arial, sans-serif;
-  width: 300px;
-	text-decoration: none;
-	color: #93b93b;
-}
-
-.hook_Image{
-	margin-top: 100px;
-}
-
-.about_Hook_Image_Content{
-	margin-top: 100px;
-}
-
-.anglers_Association{
-	margin-left: 460px;
-	margin-top: -240px;
-}
-
-.background{
-  background-color: #f2eeeb;
-  height: 350px;
-	margin-top: 150px;
-}
-
-
-.about-About_Us{
-	margin-top: -20px;
-	max-width: 960px;
-	height: 750px;
-	background-color: #f2f6fb;
-}
-
-.about_Us{
-padding-top: 30px;
-padding-left: 3px;
-text-decoration: underline;
-text-decoration-color: #93b93b;
-font-size: 16pt;
-font-family: arial, sans-serif;
-}
-
-.about_Us_Description{
-	padding-left: 3px;
-	padding-right: 3px;
-	margin-top: 20px;
-	font-family: arial, sans-serif;
-	font-size: 14px;
+i {
 	font-style: italic;
 }
 
-.more_TRAA{
+main {
+	min-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+nav {
+	margin: auto;
+	height: 40px;
+	width: 100%;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #93b93b;
+	background-color: #f2f6fb;
+	position: fixed;
+}
+
+.mainNav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 960px;
+	height: 40px;
+	margin: auto;
+}
+
+.mainNav li {
+	margin: auto;
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.mainNav li a {
+	text-decoration: none;
+	padding: 10px 33px 10px 33px;
+	font-size: 20px;
+	color: black;
+	transition: .75s;
+}
+
+
+.mainNav li a:hover {
+	background-color: #93b93b;
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+
+header {
+	height: 200px;
+	padding-top: 43px;
+}
+
+.headerContent {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: auto;
+	width: 900px;
+}
+
+.logo {
+	margin: auto;
+	margin-top: 10px;
+	height: 150px;
+	width: 150px;
+}
+
+
+.donaship {
+	display: flex;
+	margin: auto;
+	width: 200px;
+	height: 30px;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+
+	transition: .15s;
+}
+
+.donaship:hover {
+	font-size: 25px;
+	color: #93b93b;
+}
+
+.newsletter {
+	display: flex;
+	flex-direction: row; 
+	align-items: center;
+	justify-content: space-between;	
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: 30px;
+	width: 650px;
+}
+
+.newsletter h2 {
+	padding: 0;
+	margin: 0;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.search-box {
+	border: solid 2px black;
+}
+
+.search-box input {
 	padding-left: 3px;
-	padding-right: 3px;
-	padding-top: 1px;
-	font-family: arial, sans-serif;
+	font-size: 16px;
+	height: 26px;
+	width: 295px;
+}
+
+#main-footer {
+	height: 320px;
+	background-color: #f2f6fb;
+}
+
+.footer {
+	display: flex;
+	flex-flow: row;
+	margin: auto;
+	padding-top: 40px;
+	width: 900px;
+	height: 200px;
+}
+
+.footer-logo {
+	padding-right: 20px;
+	width: 150px;
+	height: 150px;
+}
+
+.footer a {
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+}
+
+.footer-text {
+	text-align: left;
+	width: 200px;
+}
+
+.footer-text h2 {
+	padding: 0;
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.footer-text h3 {
+	padding: 0;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.footer-text p {
+	padding: 0;
+	font-size: 11px;
+	font-weight: normal;
+	padding-bottom: 20px;
+}
+
+.footer-text li, a {
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+	color: black;
+	padding-top: 10px;
+
+	transition: .25s;
+}
+
+.footer-text a:hover {
+	font-weight: bold;
+	color: #93b93b;
+}
+
+.thanks h1 {
+	border: 0;
+	margin: auto;
+	text-align: left;
+	width: 900px;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+.bottom-logos {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	margin: auto;
+	width: 860px;
+}
+
+.bottom-logos img {
+	margin: auto;
+	height: 35px;
+}
+
+.bottom-logos a:hover {
+	cursor: pointer;
+}
+
+
+/*HOME PAGE*/
+
+.hero-home {
+	background-image: url(../images/hero/home-hero.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin: auto;
+	height: 420px;
+}
+
+.tag {
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	width: 900px;
+	height: 420px;
+}
+
+.tag img {											/*layover message on hero image*/
+	margin-top: 120px;
+	width: 420px;
+	height: 180px;
+}
+
+.messageBanner {
+	display: flex;
+	flex-direction: column;
+	min-height: 280px;
+	background-color: #ebebeb;
+}
+
+.messageBoard {
+	margin: auto;
+	width: 380px;
+	overflow-wrap: break-word;
+}
+
+.messageBoard h2 {
+	font-size: 24px;
+	font-style: italic;
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.messageBoard h3 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.messageBoard p {
+	font-size: 16px;
+	margin: auto;
+}
+
+.membershipAd {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 380px;
+	height: 60px;
+	border: solid 3px black;
+	background-color: #f2f6fb;
+}
+
+.memLink {	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+	width: 380px;
+	height: 60px;
+}
+
+.membershipAd p {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.sectionTitle {
+	margin: auto;
+	display: flex;
+	justify-content: flex-start;
+	width: 900px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.projectContainer {
+	margin: auto;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	width: 780px;
+}
+
+.project {
+	width: 220px;
+	display: flex;
+	flex-flow: column;
+	background-color: #f2f6fe;
+}
+
+.project img {
+	margin: auto;
+	width: 220px;
+	height: 190px;
+	background-color: lightgrey;
+}
+
+.project h1 {
+	margin-top: 14px;
+	padding: 0;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	height: 45px;
+	border-bottom: solid 3px #93b93b;
+}
+
+.project p {
+	padding: 3px 10px 0 10px;
+	margin-top: 18px;
+	height: 240px;
+	font-size: 16px;
+	text-align: left;
+}
+
+.project button {
+	margin: auto;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	font-size: 16px;
+	font-weight: bold;
+	background: none;
+	border: none;
+
+	transition: .25s;
+}
+
+.project button:hover {
+	color: #93b93b;
+	cursor: pointer;
+}
+
+.merchBanner {
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	height: 60px;
+	background-color: #ebebeb;
+}
+
+.supportText {
+	display: flex;
+	align-content: center;
+	margin: auto;
+	height: 40px;
+	align-items: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.merchContainer {
+	margin: auto;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	width: 780px;
+}
+
+.merch {
+	width: 240px;
+	height: 360px;
+	display: flex;
+	flex-flow: column;
+	background-color: #f2f6fe;
+}
+
+.merch img {
+	margin: auto;
+	margin-top: 40px;
+	width: 200px;
+	height: 180px;
+}
+
+.merchCost{
+	margin: auto;
+	height: 35px;
+	width: 220px;
+	display: flex;
+	align-items: center;
+}
+
+.merch h1 {
+	width: 110px;
+	text-align: right;
+	padding: 0;
+	margin: 0;
+	border: none;
+	font-size: 28px;
+	font-weight: normal;
+}
+
+.merch p {
+	width: 110px;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+}
+
+.merch button {
+	margin: auto;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	width: 90px;
+	height: 25px;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	background-color: #93b93b;
+	border-color: #93b93b;
+	border-radius: 10px;
+
+	transition: 0.25s;
+}
+
+.merch button:hover {
+	cursor: pointer;
+	background-color: white;
+	border-color: white;
+	color: #93b93b;
+}
+
+
+/*GALLERY PAGE*/
+
+.heroGallery {
+	background-image: url(../images/hero/gallery-hero.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin: auto;
+	height: 420px;
+}
+
+.blueBan {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	height: 250px;
+	width: 900px;
+	background-color: #f2f6fb;
+}
+
+.QL {
+	margin: auto;
+	width: 900px;
+	text-align: left;
+}
+
+
+.QL ul li {
+	margin-left: 40px;
+	padding: 2px;
+}
+
+.QL a {
+	padding: 0;
+	font-size: 18px;
+
+	transition: .25s;
+}
+
+.QL a:hover {
+	color: #93b93b;
+	font-weight: bold;
+}
+
+.QL h2 {
+	font-size: 24px;
+}
+
+.ban {
+	height: 440px;
+	background-color: #ebebeb;
+}
+
+.showcase {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin: auto;
+	width: 900px;
+}
+
+.showcase p {
 	font-size: 14px;
 }
 
-.river_Cropped{
-	padding-top: 40px;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
-}
-
-.membership_and_fundraising{
-  padding-top: 10px;
-	margin-top: -105px;
-  align-items: center;
-  text-align: center;
-	font-family: arial, sans-serif;
-}
-
-.renewal{
-  margin-left: 280px;
-  width: 420px;
-  height: 60px;
-	margin-top: 5px;
-  align-items: center;
-  text-align: center;
-  padding-top: 10px;
-	padding-bottom: 10px;
-  border-style:solid;
-  border-color:black;
-	border-width: 1px;
-  background-color: #FFFFFF;
-	font-family: arial, sans-serif;
-	font-size: 12pt;
-}
-
-.traa_Projects{
-	padding-top: 120px;
-padding-bottom: 0px;
-margin-top: -70px;
-font-family: arial, sans-serif;
-text-decoration: underline;
-text-decoration-color: #93b93b;
-font-size: 16pt;
-}
-
-.trout_Hatchery{
-max-width: 220px;
-height: 600px;
-margin-top: 40px;
-margin-left: 90px;
-align-items: left;
-text-align: left;
-padding: 0px;
-background-color: #f2f6fb;
-font-size: 16px;
-font-family: Arial;
-}
-
-.salmonid_Monitoring_Program{
-max-width: 220px;
-height: 600px;
-margin-top: -600px;
-margin-left: 370px;
-align-items: left;
-text-align: left;
-padding: 0px;
-background-color: #f2f6fb;
-font-size: 16px;
-font-family: Arial;
-}
-
-.salmonid_Monitoring{
-	margin-top: -300px;
-}
-
-
-.komoka_Creek_Hydrological_Study{
-max-width: 220px;
-height: 600px;
-margin-top: -600px;
-margin-left: 650px;
-align-items: left;
-text-align: left;
-padding: 0px;
-background-color: #f2f6fb;
-font-size: 16px;
-font-family: Arial;
-}
-
-.merchandise_Bar{
-  margin-top: 40px;
-  text-align: center;
-  align-items: center;
-  background-color: #f2eeeb;
-  background-size: 60px;
-  font-size: 30px;
-  font-family: arial;
-}
-
-.merchandise{
-	align-items: flex-start;
-}
-
-
-.merchandise_Shirt{
-	max-width: 240px;
-	height: 360px;
-	margin-left: 60px;
-	margin-top: -5px;
-	align-items: center;
-	text-align: center;
-	padding: 1px;
-	background-color: #f2f6fb;
-	font-size: 16px;
-	font-family: Arial;
-}
-
-.traa_Hats{
-	max-width: 240px;
-	height: 360px;
-	margin-left: 350px;
-	margin-top: -365px;
-	align-items: center;
-	text-align: center;
-	padding: 1px;
-	background-color: #f2f6fb;
-	font-size: 16px;
-	font-family: Arial;
-}
-
-
-.traa_Stickers{
-	max-width: 240px;
-	height: 360px;
-	margin-left: 645px;
-	margin-top: -365px;
-	align-items: center;
-	text-align: center;
-	padding: 1px;
-	background-color: #f2f6fb;
-	font-size: 16px;
-	font-family: Arial;
-}
-
-.button{
-	background-color: #93b93b;
+.showcaseDiscription {
+	margin: auto;
 	margin-top: 20px;
-  left: -10px;
-	border-radius: 50px;
-	width: 70px;
-	height: 30px;
-	font-size: 10px;
-	color: white;
-	outline: none;
+	width: 400px;
+	height: 400px;
+	text-align: left;
+
+}
+
+.showcase img {
+	margin: auto;
+	margin-top: 20px;
+	width: 400px;
+	height: 400px;
+	background-color: grey;
+}
+
+.gall {
+	display: flex;
+	flex-flow: row wrap;
+	margin: auto;
+	padding: 10px 0 10px 0;
+	width: 900px;
+	background-color: #f2f6fb;
+}
+
+.gall img {
+	width: 30%;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+/*ABOUT PAGE*/
+
+.heroAbout {
+	background-image: url(../images/hero/about-hero.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin: auto;
+	height: 420px;
+}
+
+.aboutBox {
+	display: flex;
+	flex-flow: row wrap;
+	text-align: left;
+	margin: auto;
+	padding: 10px 0 10px 0;
+	width: 900px;
+	background-color: #f2f6fb;
+}
+
+.aboutText {
+	width: 860px;
+}
+
+.aboutText h2 {
+	font-size: 24px;
+	padding: 30px 0 20px 30px;
+}
+
+.aboutText p {
+	padding: 10px 0 10px 30px;
+	font-size: 18px;
+}
+
+.aboutText li {
+	padding: 5px 0 0 30px;
+	font-size: 18px;
+}
+
+.supportMap {
+	background-image: url(../images/river.jpg);
+	background-repeat: no-repeat;
+	height: 420px;
+	width: 500px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.supportMap h1 {
+	margin: 0;
+	padding: 0;
 	border: none;
+	line-height: 30px;
 }
 
-.button:hover{
-cursor: pointer;
-background-color: #FFFFFF;
-color: black;
-}
-
-.button:active {
-  background-color: #FFFFFF;
-}
-
-.newsletter{
-	margin-left: 160px;
-	font-family: arial;
-	font-size: 14pt;
-	color: black;
-	padding-top: 30px;
-	margin-left: 300px;
-}
-
-.who_we_are-content{
+.traaEx {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin: auto;
+	padding: 10px 0 10px 0;
+	width: 900px;
 	background-color: #f2f6fb;
-	height: 485px;
-	padding: 0px;
 }
 
-.who_we_are-title{
-	text-decoration: underline;
-	text-decoration-color: #93b93b;
-	font-size: 16pt;
+.traaEx h1 {
+	width: 142px;
 }
 
-.traa_Executives{
-	padding-left: 30px;
+.chairBoxes {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	width: 860px;
+	justify-content: space-between;
+}
+
+.chairList {
+	width: 380px;
 	background-color: #ebebeb;
-	max-width: 390px;
-	height: 400px;
-	margin-left: 30px;
-	margin-top: -25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-.traa_Volunteers{
-	padding-left: 30px;
-	background-color: #ebebeb;
-	max-width: 390px;
-	height: 400px;
-	margin-left: 500px;
-	margin-right: 30px;
-	margin-top: -415px;
+.chairList h2 {
+	padding-top: 5px;
 }
 
-.search-Box{
-	margin-left: 550px;
-	margin-top: -35px;
-	}
-
-	.search-Box:input{
-	height: 30px;
-  width: 50px;
-	}
-
-.footer_Menu{
-	background-color: #f2f6fb;
-	max-width: 960px;
-	height: 500px;
-	margin-top: -220px;
+.chairList p {
+	margin-left: 40px;
+	padding-bottom: 20px;
 }
 
-.footer_Logo{
- margin-top: 30px;
- padding-bottom: 30px;
- padding-left: 10px;
-}
-
-.more_Info{
-padding-left: 20px;
-padding-top: 10px;
-margin-left: 210px;
-}
-
-.contact_Info{
-	margin-left: 410px;
-	margin-top: -280px;
-}
-
-.navigation_Title{
-margin-top: -295px;
-margin-left: 610px;
-}
-
-.footer_Nav{
-margin-top: 20px;
-margin-left: 570px;
-text-decoration: none;
-
-}
-
-.footer_Nav ul{
-	list-style-type: none;
-	text-decoration: none;
-}
-
-
-.footer_Nav ul li a{
-	color: #93b93b;
-	text-decoration: none;
-	list-style: none;
-	align-content: center;
-}
-
-.sponsored{
-	margin-top: 50px;
-	margin-left: 30px;
-	padding: 0px;
-font-size: 20px;
+.chairList  p i {
+	margin-left: -20px;
 }
